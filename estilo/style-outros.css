@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    body{
+        background: rgba(128, 128, 128, 0.753);
+    }
+    #itens ul {
+        flex-direction: row;
+    }
+    
+    div#texto1{
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+
+}

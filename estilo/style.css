@@ -8,21 +8,61 @@
 }
 header{
     background-color: rgba(128, 128, 128, 0.753);
+  
 }
+
 header h1{
     text-align: center;
     padding: 15px;
+    
 }
+#itens{
+    display: none;
+
+}
+
+#burguer{
+    background-color: rgb(128, 128, 128, 0.753);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+   
+    width: 100%;
+}
+nav li{
+    width: 100%;
+    
+}
+
+nav a {
+    background-color: rgb(20, 20, 20);
+    display: block;      /* Faz o link se comportar como um bloco de largura total */
+    width: 100%;         /* Garante os 100% da largura */
+    padding: 12px 0px;   /* Espaçamento interno em cima e embaixo */
+    color: white;
+    text-align: center;  /* Centraliza o texto na tela */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Linha divisória opcional entre os botões */
+}
+
 main {
-    padding: 20px 70px; /* Adicionado 20px no topo/base para não colar no header */
+    padding: 20px 12%; 
+    
 }
-main a {
-    background-color: rgba(235, 13, 13, 0.822);
-    margin: 3px;
-    border: 1px solid black;
-    display: inline-block;
-    padding: 18px;
-}
+
+
+
 
 main h2{
     padding: 20px 0px;
