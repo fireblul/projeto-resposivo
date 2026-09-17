@@ -1,18 +1,86 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 991px){
+
+    #burguer {
+        display: none !important;
+    }
+    
+    #itens {
+        display: block !important;
+    }
+
     body{
         background: rgba(128, 128, 128, 0.753);
     }
+    
+    }
     #itens ul {
-        flex-direction: row;
+        display: flex;
+        width: 50%;
+        gap: 10px;
+        
+    }
+    #itens  li{
+        background-color: rgb(68, 68, 68);
+
     }
     
     div#texto1{
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.925);
         padding: 10px;
         border-radius: 10px;
     }
     
 
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+/*desktop*/
+    body{
+        background: rgba(128, 128, 128, 0.753);
+        
+    }
+    div#texto1{
+        background-color: rgba(255, 255, 255, 0.925);
+        padding: 10px;
+        border-radius: 10px;
+        
+        
+    }
+    #burguer{
+        display: none;
+    }
+    #itens{
+        display: block;
+    }
+    #itens ul{
+        display: flex;
+        width: 50%;
+        gap: 10px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1200px){
+
+    body{
+        background-color: rgb(128, 128, 128, 0.753);
+        
+    }
+    div#texto1{
+        background-color: rgb(255, 255, 255, 0.925);
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    #burguer{
+        display: none;
+
+
+    }
+    #itens{
+        display: block;
+    }
 }
